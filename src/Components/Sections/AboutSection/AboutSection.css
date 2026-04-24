@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Rethink+Sans:wght@400;500;600&display=swap');
+
+.yum-chronicle-theater {
+    font-family: 'Rethink Sans', sans-serif;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.chronicle-inner-shell {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row; /* Desktop side-by-side */
+    gap: 48px;
+}
+
+/* --- LEFT COLUMN: Headline & Egusi --- */
+.theater-intro-nexus {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.prose-header-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.narrative-identity-tag {
+    color: #F62905;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 16px;
+}
+
+.epic-prose-title {
+    font-family: 'Kalnia', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #0a0a0a;
+    font-weight: 500;
+}
+
+.artifact-canvas-lower {
+    width: 100%;
+}
+
+.artifact-canvas-lower .artifact-visual-asset {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* --- RIGHT COLUMN: Jollof & Description --- */
+.theater-body-nexus {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.artifact-canvas-upper {
+    width: 100%;
+}
+
+.artifact-canvas-upper .artifact-visual-asset {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.prose-intel-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-statement-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #1a1a1a;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+/* --- STATS SECTION --- */
+.metric-bridge-board {
+    border-top: 1.5px solid #353535;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.metric-cluster {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.metric-separator-spine {
+    width: 1px;
+    height: 52px;
+    background-color: #353535;
+    margin: 0 22px;
+    flex-shrink: 0;
+}
+
+.social-proof-stack {
+    display: flex;
+    align-items: center;
+}
+
+.proof-avatar-node {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2.5px solid #ffffff;
+    margin-right: -10px;
+    object-fit: cover;
+}
+
+.metric-intel-core{
+    padding-top: 25px;
+}
+
+.metric-intel-core h5 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    color: #0a0a0a;
+}
+
+.metric-intel-core p {
+    font-size: 12.5px;
+    color: #696969;
+    margin: 0;
+}
+
+.stella-icon-accent {
+    color: #F62905;
+    font-size: 32px;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 1024px) {
+    .epic-prose-title { font-size: 24px; }
+}
+
+@media (max-width: 768px) {
+    .chronicle-inner-shell {
+        flex-direction: column;
+        padding: 0 24px;
+    }
+
+    .theater-intro-nexus,
+    .theater-body-nexus {
+        width: 100%;
+    }
+    .metric-separator-spine {
+    width: 1.5px;
+}
+
+}
+
+@media (max-width: 768px) {
+    .epic-prose-title { font-size: 30px; }
+    .chronicle-inner-shell {
+        flex-direction: column;
+        padding: 0 24px;
+        gap: 36px;
+    }
+
+    .theater-intro-nexus,
+    .theater-body-nexus {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .artifact-canvas-upper,
+    .artifact-canvas-lower {
+        width: 100%;
+    }
+
+    .metric-bridge-board {
+        flex-direction: row;
+        gap: 4px;
+    }
+    .proof-avatar-node{
+        width: 30px;
+        height: 30px;
+        margin-right: -22px;
+    ;
+    }
+        .metric-separator-spine {
+            width: 1.5px;
+            height: 40px;
+            
+        }
+    
+        .metric-intel-core {
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+    
+        .metric-intel-core h5 {
+            font-size: 15px;
+        }
+    
+        .metric-intel-core p {
+            font-size: 11px;
+        }
+    
+        .stella-icon-accent {
+            font-size: 24px;
+        }
+}
+
+@media (max-width: 480px) {
+    .epic-prose-title { font-size: 28px; }
+
+    .metric-intel-core h5 {
+    font-size: 13px;
+}
+
+.metric-intel-core p {
+    font-size: 10.5px;
+}
+
+.stella-icon-accent {
+    font-size: 28px;
+}
+
+}
+

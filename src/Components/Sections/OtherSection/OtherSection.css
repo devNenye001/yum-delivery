@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&family=Rethink+Sans:wght@400;500&display=swap');
+
+.yum-action-concourse {
+    font-family: 'Rethink Sans', sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.concourse-inner-chamber {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.action-banner-monolith {
+    background-color: #F62905;
+    border-radius: 24px;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* LEFT SIDE: PRIMARY CALL */
+.monolith-primary-anchor {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.anchor-title-prose {
+    font-family: 'Kalnia', serif;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.anchor-trigger-node {
+    background-color: #ffffff;
+    color: #F62905;
+    padding: 14px 28px;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: max-content;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.yum-action-concourse a{
+    text-decoration: none;
+}
+
+/* RIGHT SIDE: FEATURE TRIAD */
+.monolith-feature-triad {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.triad-feature-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: #ffffff;
+}
+
+.cell-icon-vessel {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.cell-label-core {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cell-prose-detail {
+    font-size: 13px;
+    line-height: 1.5;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+/* RESPONSIVE (Desktop-First) */
+@media (max-width: 1100px) {
+    .action-banner-monolith {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .monolith-feature-triad {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .anchor-title-prose {
+        font-size: 30px;
+    }
+
+    .action-banner-monolith {
+        padding: 40px 24px;
+    }
+
+    .anchor-title-prose{
+        font-size: 24px;
+    
+    }
+    
+}

@@ -1,0 +1,109 @@
+/* Hero.css */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Rethink+Sans:wght@400;500&display=swap');
+
+.hero-container {
+    font-family: 'Rethink Sans', sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    /* 20px vertical padding as requested */
+    padding: 30px 0;
+}
+
+.hero-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Typography */
+.hero-headline {
+    font-family: 'Kalnia', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #000000;
+    max-width: 800px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.hero-subtext {
+    font-size: 16px;
+    color: #4b5563;
+    max-width: 500px;
+    margin-bottom: 32px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/* Button */
+.view-menu-btn {
+    background-color: #F62905;
+    color: #ffffff;
+    padding: 16px 48px;
+    border-radius: 9999px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-menu-btn:hover {
+    background-color: #d12304;
+}
+
+/* Image Section */
+.hero-image-box {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-food-img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* Responsive Adjustments (Desktop-First) */
+@media (max-width: 1024px) {
+    .hero-headline {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-headline {
+        font-size: 32px;
+    }
+    
+    .hero-subtext {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .hero-image-box {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-headline {
+        font-size: 24px;
+    }
+    
+    .view-menu-btn {
+        width: 100%;
+        max-width: 280px;
+    }
+}
