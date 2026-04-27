@@ -1,121 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Rethink+Sans:wght@400;500&display=swap');
-
 .yum-gallery-orbit {
-    font-family: 'Rethink Sans', sans-serif;
-    background-color: #ffffff;
-    width: 100%;
-    padding: 20px 0;
+  font-family: "Rethink Sans", sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 60px 0;
 }
 
 .orbit-inner-theater {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 24px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 /* SECTION HEADER */
 .orbit-intel-module {
-    margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .orbit-badge-label {
-    color: #F62905;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    margin-bottom: 12px;
-    display: block;
+  color: #f62905;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 12px;
+  display: block;
 }
 
 .orbit-main-title {
-    font-family: 'Kalnia', serif;
-    font-size: 32px;
-    line-height: 1.2;
-    color: #000000;
-    font-weight: 500;
-    margin: 0;
+  font-family: "Kalnia", serif;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #000000;
+  font-weight: 500;
+  margin: 0;
 }
 
 /* CARDS CAROUSEL/GRID */
 .orbit-grid-array {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    overflow-x: auto;
-    padding-bottom: 20px;
-    scrollbar-width: none; /* Firefox */
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  scrollbar-width: none; /* Firefox */
 }
 
 .orbit-grid-array::-webkit-scrollbar {
-    display: none; /* Chrome/Safari */
+  display: none; /* Chrome/Safari */
 }
 
 .orbit-item-capsule {
-    min-width: 280px;
-    flex: 1;
-    background-color: #f3f4f6; /* Subtle off-white/gray */
-    border-radius: 60px; /* High pill-shaped curve as seen in design */
-    padding: 40px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    transition: transform 0.3s ease;
+  min-width: 280px;
+  flex: 1;
+  background-color: #f3f4f6; /* Subtle off-white/gray */
+  border-radius: 60px; /* High pill-shaped curve as seen in design */
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
 }
 
 /* IMAGE ASSET */
 .capsule-visual-core {
-    width: 100%;
-    max-width: 180px;
-    height: 180px;
-    object-fit: contain;
-    margin-bottom: 32px;
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 32px;
 }
 
 /* TYPOGRAPHY */
 .capsule-prose-name {
-    font-size: 18px;
-    color: #000000;
-    font-weight: 500;
-    line-height: 1.4;
-    margin-bottom: 16px;
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 16px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .capsule-price-tag {
-    font-size: 22px;
-    color: #000000;
-    font-weight: 500;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 500;
 }
 
 /* RESPONSIVE LOGIC (Desktop-First) */
 @media (max-width: 1024px) {
-    .orbit-main-title { font-size: 28px; }
+  .orbit-main-title {
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 768px) {
-    .orbit-item-capsule {
-        min-width: 250px;
-        padding: 30px 20px;
-    }
-    
-    .capsule-visual-core {
-        max-width: 140px;
-        height: 140px;
-    }
+  .orbit-item-capsule {
+    min-width: 250px;
+    padding: 30px 20px;
+  }
 
-    .capsule-prose-name { font-size: 16px; }
-    .capsule-price-tag { font-size: 19px; }
+  .capsule-visual-core {
+    max-width: 140px;
+    height: 140px;
+  }
+
+  .capsule-prose-name {
+    font-size: 16px;
+  }
+  .capsule-price-tag {
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 480px) {
-    .orbit-grid-array {
-        gap: 16px;
-    }
-        .orbit-main-title { font-size: 24px; }
+  .orbit-grid-array {
+    gap: 16px;
+  }
+  .orbit-main-title {
+    font-size: 24px;
+  }
 }

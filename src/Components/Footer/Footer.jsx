@@ -56,9 +56,9 @@ const Footer = () => {
                         <Motion.div {...fadeIn} transition={{ delay: 0.2 }}>
                             <h4 className="footer-heading">Follow Us</h4>
                             <nav className="footer-nav-list">
-                                <a href="#" className="footer-link-item">Instagram</a>
-                                <a href="#" className="footer-link-item">Twitter</a>
-                                <a href="#" className="footer-link-item">Facebook</a>
+                                <a href="https://www.instagram.com/yumdelivery01/" className="footer-link-item">Instagram</a>
+                                <a href="https://x.com/yumdelivery01/" className="footer-link-item">Twitter</a>
+                                <a href="https://facebook.com/yumdelivery01/" className="footer-link-item">Facebook</a>
                             </nav>
                         </Motion.div>
 
@@ -90,10 +90,7 @@ const Footer = () => {
                         <p className="copyright-text">
                             Copyright © {currentYear} Yum Delivery.
                         </p>
-                        <div className="legal-links">
-                            <Link to="/terms" className="footer-link-item text-[13px]">Terms of Service</Link>
-                            <Link to="/privacy" className="footer-link-item text-[13px]">Privacy Policy</Link>
-                        </div>
+    
                     </div>
                 </div>
             </div>

@@ -1,0 +1,225 @@
+.yum-feedback-theater {
+  font-family: "Rethink Sans", sans-serif;
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.feedback-inner-sanctum {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* --- TOP SECTION: TESTIMONIAL CARDS --- */
+.feedback-intel-block {
+  margin-bottom: 40px;
+}
+
+.feedback-status-tag {
+  color: #f62905;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.feedback-epic-title {
+  font-family: "Kalnia", serif;
+  font-size: 32px;
+  color: #000000;
+  font-weight: 500;
+  margin: 0;
+}
+
+.feedback-carousel-nexus {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding-bottom: 40px;
+  scrollbar-width: none;
+}
+
+.feedback-carousel-nexus::-webkit-scrollbar {
+  display: none;
+}
+
+.testimonial-pod-artifact {
+  min-width: 440px;
+  background-color: #f9fafb;
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.pod-rating-node {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #f62905;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.pod-prose-quote {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #111827;
+  font-weight: 500;
+}
+
+.pod-author-nexus {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-avatar-node {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-intel-core h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.author-intel-core p {
+  font-size: 13px;
+  color: #9ca3af;
+  margin: 0;
+}
+
+/* --- BOTTOM SECTION: PLANNING BANNER --- */
+.planning-monolith-green {
+  background-color: #2fb35e; /* Green from design */
+  border-radius: 24px;
+  padding: 60px 40px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.planning-call-anchor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.planning-tag {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.planning-title {
+  font-family: "Kalnia", serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.planning-trigger-btn {
+  background-color: #ffffff;
+  color: #2fb35e;
+  padding: 14px 28px;
+  border-radius: 9999px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: max-content;
+  text-decoration: none;
+}
+
+.planning-steps-triad {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.steps-connector-spine {
+  position: absolute;
+  top: 24px;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 1;
+}
+
+.step-node-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  z-index: 2;
+  max-width: 200px;
+}
+
+.step-number-ring {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2cba5a;
+  font-weight: 500;
+}
+
+.step-label-core {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.step-prose-detail {
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.yum-feedback-theater a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 1024px) {
+  .feedback-epic-title {
+    font-size: 28px;
+  }
+  .planning-monolith-green {
+    flex-direction: column;
+  }
+  .testimonial-pod-artifact {
+    min-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .feedback-epic-title {
+    font-size: 26px;
+  }
+  .planning-steps-triad {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .steps-connector-spine {
+    display: none;
+  }
+}

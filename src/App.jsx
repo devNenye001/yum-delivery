@@ -4,6 +4,10 @@ import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import NotFound from './Pages/NotFound/NotFound';
 import Home from './Pages/Home/Home';
+import Menu from './Pages/Menu/Menu';
+import Gallery from './Pages/Gallery/Gallery';
+import About from './Pages/About/About';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
@@ -17,11 +21,10 @@ function App() {
           <Routes>
            
             <Route path="/" element={<Home/>} />
-            <Route path="/menu" element={<div >Menu Page Content</div>} />
-            <Route path="/gallery" element={<div>Gallery Page Content</div>} />
-            <Route path="/about" element={<div >About Us Content</div>} />
-            <Route path="/contact" element={<div>Contact Content</div>} />
-            <Route path="/order" element={<div>Order Page</div>} />
+            <Route path="/menu" element={<Menu/>} />
+            <Route path="/gallery" element={<Gallery/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/contact" element={<Contact />} />
 
         
             <Route path="*" element={<NotFound />} />

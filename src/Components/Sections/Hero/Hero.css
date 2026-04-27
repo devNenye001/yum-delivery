@@ -7,7 +7,7 @@
     width: 100%;
     overflow: hidden;
     /* 20px vertical padding as requested */
-    padding: 30px 0;
+      padding: 60px 0;
 }
 
 .hero-wrapper {
@@ -83,6 +83,9 @@
 }
 
 @media (max-width: 768px) {
+    .hero-container{
+          padding: 30px 0;
+    }
     .hero-headline {
         font-size: 32px;
     }

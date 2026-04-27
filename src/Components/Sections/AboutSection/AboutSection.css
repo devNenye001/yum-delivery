@@ -171,6 +171,9 @@
 }
 
 @media (max-width: 768px) {
+    .yum-chronicle-theater{
+        padding: 40px 0;
+    }
     .epic-prose-title { font-size: 30px; }
     .chronicle-inner-shell {
         flex-direction: column;

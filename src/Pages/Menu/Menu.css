@@ -1,0 +1,247 @@
+.yum-menu-theatre {
+  font-family: "Rethink Sans", sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* Banner Section */
+.menu-epic-banner {
+  width: 100%;
+  height: 250px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/menu-banner.svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.banner-title-text {
+  font-family: "Kalnia", serif;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* Search Area */
+.menu-search-nexus {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 24px;
+  position: relative;
+}
+
+.search-input-field {
+  width: 100%;
+  padding: 16px 50px 16px 24px;
+  border: 1px solid #e5e7eb;
+  border-radius: 9999px;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-input-field:focus {
+  border-color: #f62905;
+}
+
+.search-icon-node {
+  position: absolute;
+  right: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  font-size: 20px;
+}
+
+/* Categories Filter */
+.menu-category-belt {
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 24px;
+  scrollbar-width: none;
+}
+
+.menu-category-belt::-webkit-scrollbar {
+  display: none;
+}
+
+.category-trigger-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  min-width: 80px;
+  transition: color 0.3s ease;
+}
+
+.category-icon-vessel {
+  font-size: 32px;
+  color: #4b5563;
+  transition: color 0.3s ease;
+}
+
+.category-label-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.category-trigger-node.active .category-icon-vessel,
+.category-trigger-node.active .category-label-text {
+  color: #f62905;
+}
+
+/* Grid Layout */
+.menu-catalog-nexus {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.catalog-section-group {
+  margin-bottom: 60px;
+}
+
+.catalog-header-title {
+  font-family: "Kalnia", serif;
+  font-size: 32px;
+  margin-bottom: 32px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.catalog-grid-array {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* Item Capsule */
+.catalog-item-capsule {
+  background-color: #f3f4f6;
+  border-radius: 60px;
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.item-visual-artifact {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 24px;
+}
+
+.item-prose-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 12px;
+  min-height: 44px;
+}
+
+.item-price-tag {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* Empty State */
+.menu-empty-state {
+  text-align: center;
+  padding: 100px 0;
+  font-size: 18px;
+  color: #9ca3af;
+}
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .catalog-grid-array {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .catalog-grid-array {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .banner-title-text {
+    font-size: 28px;
+  }
+  .catalog-header-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .catalog-grid-array {
+    grid-template-columns: 1fr;
+  }
+  .catalog-item-capsule {
+    border-radius: 40px;
+  }
+  .banner-title-text {
+    font-size: 26px;
+  }
+  .catalog-header-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-category-belt {
+    justify-content: flex-start;
+    gap: 16px;
+    padding: 10px 16px;
+  }
+
+  .category-trigger-node {
+    min-width: 70px;
+    flex-shrink: 0;
+  }
+
+  .category-icon-vessel {
+    font-size: 24px;
+  }
+
+  .category-label-text {
+    font-size: 11px;
+    text-align: center;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-category-belt {
+    gap: 12px;
+    padding: 10px 12px;
+  }
+
+  .category-trigger-node {
+    min-width: 60px;
+  }
+
+  .category-icon-vessel {
+    font-size: 22px;
+  }
+
+  .category-label-text {
+    font-size: 10px;
+  }
+}

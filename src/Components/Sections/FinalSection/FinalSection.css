@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Rethink+Sans:wght@400;500&display=swap');
+
+.yum-termination-hub {
+    font-family: 'Rethink Sans', sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.yum-termination-hub a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hub-internal-core {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* TEXT CONTENT */
+.hub-narrative-vessel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.narrative-call-tag {
+    color: #F62905;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.narrative-epic-question {
+    font-family: 'Kalnia', serif;
+    font-size: 32px;
+    line-height: 1.1;
+    color: #000000;
+    font-weight: 500;
+    margin: 0;
+}
+
+.hub-trigger-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 16px 36px;
+    border-radius: 9999px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: max-content;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* VISUAL CONTENT */
+.hub-artifact-stage {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.artifact-hero-dish {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* RESPONSIVE LOGIC (Desktop-First) */
+@media (max-width: 1024px) {
+    .narrative-epic-question { font-size: 28px; }
+}
+
+@media (max-width: 768px) {
+    .hub-internal-core {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 48px;
+    }
+
+    .hub-narrative-vessel {
+        align-items: center;
+    }
+
+    .hub-artifact-stage {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .narrative-epic-question { font-size: 26px; }
+    .hub-trigger-btn { width: 100%; justify-content: center; }
+}

@@ -1,82 +1,81 @@
 /* NotFound.css */
-@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Rethink+Sans:wght@400;500&display=swap');
 
 .notfound-container {
-    font-family: 'Rethink Sans', sans-serif;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
+  font-family: "Rethink Sans", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }
 
 .notfound-content {
-    max-width: 500px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Icon Box */
 .error-icon-box {
-    background-color: #e5e7eb;
-    padding: 18px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+  background-color: #e5e7eb;
+  padding: 18px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .error-icon {
-    font-size: 26px;
-    color: #000000;
+  font-size: 26px;
+  color: #000000;
 }
 
 /* Typography */
 .notfound-title {
-    font-family: 'Kalnia', serif;
-    font-size: 32px;
-    font-weight: 500;
-    color: #000000;
-    margin-bottom: 16px;
+  font-family: "Kalnia", serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 16px;
 }
 
 @media (min-width: 768px) {
-    .notfound-title {
-        font-size: 32px;
-    }
+  .notfound-title {
+    font-size: 32px;
+  }
 }
 
 .notfound-text {
-    font-size: 16px;
-    font-weight: 500;
-    color: #000000;
-    line-height: 1.6;
-    margin-bottom: 40px;
-    max-width: 400px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 400px;
 }
 
 /* Button */
 .go-home-btn {
-    background-color: #F62905;
-    color: #ffffff;
-    font-family: 'Rethink Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 12px 48px; /* Balanced 20px-ish padding aesthetic */
-    border-radius: 9999px;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    transition: background-color 0.3s ease;
+  background-color: #f62905;
+  color: #ffffff;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 48px; /* Balanced 20px-ish padding aesthetic */
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
 }
 
 .go-home-btn:hover {
-    background-color: #d12304;
+  background-color: #d12304;
 }

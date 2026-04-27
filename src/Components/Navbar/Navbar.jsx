@@ -37,7 +37,11 @@ const Navbar = () => {
 
         {/* Actions */}
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          <Link to="/order">
+          <a
+              href="https://wa.me/2348032280081"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <Motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -45,7 +49,7 @@ const Navbar = () => {
             >
               Order Now
             </Motion.button>
-          </Link>
+          </a>
 
           {/* Mobile Burger Icon */}
           <button className="mobile-toggle-btn" onClick={toggleMenu}>
@@ -81,11 +85,16 @@ const Navbar = () => {
               </Link>
             ))}
 
-            <Link to="/order" onClick={toggleMenu} style={{ marginTop: '20px' }}>
+            <a
+              href="https://wa.me/2348032280081"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ marginTop: '20px', display: 'block' }}
+            >
               <button className="order-btn" style={{ width: '100%', padding: '16px' }}>
                 Order Now
               </button>
-            </Link>
+            </a>
           </Motion.div>
         )}
       </AnimatePresence>

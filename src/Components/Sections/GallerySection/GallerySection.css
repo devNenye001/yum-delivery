@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Rethink+Sans:wght@400;500&display=swap');
+
+.yum-gallery-portal {
+    font-family: 'Rethink Sans', sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-inner-horizon {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* HEADER AREA */
+.gallery-intel-block {
+    margin-bottom: 40px;
+}
+
+.gallery-status-tag {
+    color: #F62905;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.gallery-epic-title {
+    font-family: 'Kalnia', serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 500;
+    margin: 0 0 12px 0;
+}
+
+.gallery-sub-narrative {
+    font-size: 16px;
+    color: #4b5563;
+    font-weight: 500;
+    max-width: 600px;
+}
+
+/* FAN LAYOUT CARDS */
+.gallery-visual-fan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    width: 100%;
+    perspective: 1000px;
+}
+
+.visual-artifact-node {
+    width: 180px;
+    height: 240px;
+    border-radius: 24px;
+    object-fit: cover;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+/* Specific Fan Rotations */
+.node-outer-left { transform: rotate(-15deg) translateY(20px); }
+.node-inner-left { transform: rotate(-8deg) translateY(10px); }
+.node-center { 
+    width: 320px; 
+    height: 380px; 
+    z-index: 10; 
+    transform: rotate(0deg) scale(1.05); 
+}
+.node-inner-right { transform: rotate(8deg) translateY(10px); }
+.node-outer-right { transform: rotate(15deg) translateY(20px); }
+
+/* CALL TO ACTION */
+.instagram-trigger-anchor {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 16px 36px;
+    border-radius: 9999px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* RESPONSIVE (Desktop-First) */
+@media (max-width: 1024px) {
+    .gallery-epic-title { font-size: 28px; }
+    .visual-artifact-node { width: 140px; height: 180px; }
+    .node-center { width: 240px; height: 300px; }
+}
+
+@media (max-width: 768px) {
+      .gallery-epic-title { font-size: 26px; }
+    .gallery-visual-fan {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .visual-artifact-node {
+        transform: none !important;
+        width: 45%;
+        height: 180px;
+    }
+
+    .node-center {
+        width: 90%;
+        order: -1;
+        height: 250px;
+    }
+}
