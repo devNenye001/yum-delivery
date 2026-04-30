@@ -22,155 +22,154 @@ const MENU_DATA = [
             { name: "French Fries, Fried Eggs & Ketchup", price: "₦4,500", img: "/m2.png" },
             { name: "Fried Plantain & Eggs", price: "₦6,000", img: "/m3.png" },
             { name: "French Fries, Scrambled Eggs & Coffee", price: "₦8,500", img: "/m4.png" },
-            { name: "Indomie & Egg", price: "₦3,700", img: "/m1.png" },
-            { name: "Oatmeal, Plantain & Egg Sauce", price: "₦8,000", img: "/m2.png" },
-            { name: "Yam Balls & Tea", price: "₦2,500", img: "/m3.png" },
-            { name: "Plantain Frittata", price: "₦6,000", img: "/m1.png" }
+            { name: "Indomie & Egg", price: "₦3,700", img: "/m5.png" },
+            { name: "Oatmeal, Plantain & Egg Sauce", price: "₦8,000", img: "/m6.png" },
+            { name: "Yam Balls & Tea", price: "₦2,500", img: "/m7.png" },
+            { name: "Plantain Frittata", price: "₦6,000", img: "/m8.png" }
         ]
     },
     {
         category: "Sandwich",
         icon: <LuSandwich />,
         items: [
-            { name: "Club Sandwich & Fries", price: "₦6,500", img: "/m4.png" },
-            { name: "Chicken Shawarma (Single Sausage)", price: "₦4,000", img: "/m5.png" },
-            { name: "Chicken Shawarma (Standard)", price: "₦3,500", img: "/m4.png" },
-            { name: "Chicken Shawarma (Large)", price: "₦5,000", img: "/m5.png" },
-            { name: "Beef Shawarma (With Sausage)", price: "₦3,500", img: "/m4.png" },
-            { name: "Beef Shawarma (Standard)", price: "₦3,000", img: "/m5.png" },
-            { name: "Beef Shawarma (Large)", price: "₦4,500", img: "/m4.png" }
+            { name: "Club Sandwich & Fries", price: "₦6,500", img: "/m9.png" },
+            { name: "Chicken Shawarma (Single Sausage)", price: "₦4,000", img: "/m11.png" },
+            { name: "Chicken Shawarma (Standard)", price: "₦3,500", img: "/m11.png" },
+            { name: "Chicken Shawarma (Large)", price: "₦5,000", img: "/m11.png" },
+            { name: "Beef Shawarma (With Sausage)", price: "₦3,500", img: "/m10.png" },
+            { name: "Beef Shawarma (Standard)", price: "₦3,000", img: "/m10.png" },
+            { name: "Beef Shawarma (Large)", price: "₦4,500", img: "/m10.png" }
         ]
     },
     {
         category: "Meat & Fish",
         icon: <TbMeat />,
         items: [
-            { name: "Peppered Beef", price: "₦1,500", img: "/m6.png" },
-            { name: "Peppered Turkey", price: "₦5,000", img: "/m7.png" },
-            { name: "Chicken (Per Piece)", price: "₦2,500", img: "/m8.png" },
-            { name: "Kentucky Chicken", price: "₦1,500", img: "/m6.png" },
-            { name: "Catfish Pepper Soup", price: "₦7,000", img: "/m7.png" },
-            { name: "Goat Meat (Peppered)", price: "₦1,500", img: "/m8.png" },
-            { name: "Assorted Meat Pepper Soup", price: "₦4,000", img: "/m6.png" },
-            { name: "Asun Goat Meat", price: "₦5,000", img: "/m7.png" },
-            { name: "Boiled Egg", price: "₦400", img: "/m8.png" },
-            { name: "Crocker Fish", price: "₦3,500", img: "/m6.png" },
-            { name: "Dry Catfish", price: "₦3,000", img: "/m7.png" }
+            { name: "Peppered Beef", price: "₦1,500", img: "/m20.png" },
+            { name: "Peppered Turkey", price: "₦5,000", img: "/shop2.png" },
+            { name: "Chicken (Per Piece)", price: "₦2,500", img: "/m13.png" },
+            { name: "Kentucky Chicken", price: "₦1,500", img: "/m14.png" },
+            { name: "Catfish Pepper Soup", price: "₦7,000", img: "/m151.png" },
+            { name: "Goat Meat (Peppered)", price: "₦1,500", img: "/m17.png" },
+            { name: "Assorted Meat Pepper Soup", price: "₦4,000", img: "/m16.png" },
+            { name: "Asun Goat Meat", price: "₦5,000", img: "/m20.png" },
+            { name: "Boiled Egg", price: "₦400", img: "/m19.png" },
+            { name: "Crocker Fish", price: "₦3,500", img: "/m21.png" },
+            { name: "Dry Catfish", price: "₦3,000", img: "/m22.png" }
         ]
     },
     {
         category: "Swallow",
         icon: <PiBowlFood />,
         items: [
-            { name: "Eba (with Soup)", price: "₦4,000", img: "/m9.png" },
-            { name: "Semovita (with Soup)", price: "₦4,000", img: "/m10.png" },
-            { name: "Pounded Yam (with Soup)", price: "₦4,500", img: "/m9.png" },
-            { name: "Wheat (with Soup)", price: "₦4,500", img: "/m10.png" },
-            { name: "Fufu (with Soup)", price: "₦4,000", img: "/m9.png" },
-            { name: "Seafood Okro & Pounded Yam", price: "₦10,000", img: "/m10.png" },
-            { name: "Miyan Kuka & Tuwon Shinkafa", price: "₦2,500", img: "/m9.png" }
+            { name: "Eba (with Soup)", price: "₦4,000", img: "/n11.png" },
+            { name: "Semovita (with Soup)", price: "₦4,000", img: "/n12.png" },
+            { name: "Pounded Yam (with Soup)", price: "₦4,500", img: "/n13.png" },
+            { name: "Wheat (with Soup)", price: "₦4,500", img: "/n14.png" },
+            { name: "Fufu (with Soup)", price: "₦4,000", img: "/n15.png" },
+            { name: "Seafood Okro & Pounded Yam", price: "₦10,000", img: "/n16.png" },
         ]
     },
     {
         category: "Rice",
         icon: <GiBowlOfRice />,
         items: [
-            { name: "Basmati Fried Rice", price: "₦4,000", img: "/m11.png" },
-            { name: "Coconut Rice", price: "₦4,500", img: "/m12.png" },
-            { name: "Native Rice", price: "₦5,500", img: "/m13.png" },
-            { name: "Jollof Rice", price: "₦2,500", img: "/m11.png" },
-            { name: "Yum Fried Rice", price: "₦2,500", img: "/m12.png" },
-            { name: "Pineapple Rice", price: "₦4,000", img: "/m13.png" },
-            { name: "Chicken Shrimp Rice", price: "₦7,000", img: "/m11.png" },
-            { name: "Ofada Rice & Sauce", price: "₦5,500", img: "/m12.png" }
+            { name: "Basmati Fried Rice", price: "₦4,000", img: "/m34.png" },
+            { name: "Coconut Rice", price: "₦4,500", img: "/m35.png" },
+            { name: "Native Rice", price: "₦5,500", img: "/shop4.svg" },
+            { name: "Jollof Rice", price: "₦2,500", img: "/m38.png" },
+            { name: "Yum Fried Rice", price: "₦2,500", img: "/m40.png" },
+            { name: "Pineapple Rice", price: "₦4,000", img: "/m37.png" },
+            { name: "Chicken Shrimp Rice", price: "₦7,000", img: "/m39.png" },
+            { name: "Ofada Rice & Sauce", price: "₦5,500", img: "/m36.png" }
         ]
     },
     {
         category: "Pasta",
         icon: <CiBowlNoodles />,
         items: [
-            { name: "Stir Fried Pasta", price: "₦3,000", img: "/m14.png" },
-            { name: "Native Pasta", price: "₦4,000", img: "/m15.png" },
-            { name: "Jollof Spaghetti", price: "₦3,500", img: "/m14.png" },
-            { name: "Spaghetti Bolognese", price: "₦4,000", img: "/m15.png" },
-            { name: "Spaghetti & Stew", price: "₦3,500", img: "/m14.png" },
-            { name: "Pasta Alfredo", price: "₦7,000", img: "/m15.png" },
-            { name: "Creamy Pasta", price: "₦6,500", img: "/m14.png" }
+            { name: "Stir Fried Pasta", price: "₦3,000", img: "/n23.png" },
+            { name: "Native Pasta", price: "₦4,000", img: "/n24.png" },
+            { name: "Jollof Spaghetti", price: "₦3,500", img: "/n25.png" },
+            { name: "Spaghetti Bolognese", price: "₦4,000", img: "/n26.png" },
+            { name: "Spaghetti & Stew", price: "₦3,500", img: "/n27.png" },
+            { name: "Pasta Alfredo", price: "₦7,000", img: "/n28.png" },
+            { name: "Creamy Pasta", price: "₦6,500", img: "/n29.png" }
         ]
     },
     {
         category: "African & Porridge",
         icon: <GiHotMeal />,
         items: [
-            { name: "Yam Porridge", price: "₦3,000", img: "/m16.png" },
-            { name: "Plantain Porridge", price: "₦4,000", img: "/m17.png" },
-            { name: "Beans Porridge", price: "₦3,000", img: "/m16.png" },
-            { name: "Gizdodo", price: "₦8,500", img: "/m17.png" },
-            { name: "Nkwobi", price: "₦8,000", img: "/m16.png" },
-            { name: "Isiewu", price: "₦7,000", img: "/m17.png" }
+            { name: "Yam Porridge", price: "₦3,000", img: "/n30.png" },
+            { name: "Plantain Porridge", price: "₦4,000", img: "/n31.png" },
+            { name: "Beans Porridge", price: "₦3,000", img: "/n32.png" },
+            { name: "Gizdodo", price: "₦8,500", img: "/n33.png" },
+            { name: "Nkwobi", price: "₦8,000", img: "/n34.png" },
+            { name: "Isiewu", price: "₦7,000", img: "/n35.png" }
         ]
     },
     {
         category: "Grills",
         icon: <TbGrill />,
         items: [
-            { name: "Whole Grilled Chicken & Bole", price: "₦9,000", img: "/m18.png" },
-            { name: "Whole Grilled Chicken", price: "₦7,000", img: "/m19.png" },
-            { name: "Grilled Turkey", price: "₦4,000", img: "/m18.png" },
-            { name: "Lamb Chops", price: "₦7,000", img: "/m19.png" },
-            { name: "Grilled Fish", price: "₦5,000", img: "/m18.png" },
-            { name: "Mixed Grill Platter", price: "₦8,000", img: "/m19.png" }
+            { name: "Whole Grilled Chicken & Bole", price: "₦9,000", img: "/n22.png" },
+            { name: "Whole Grilled Chicken", price: "₦7,000", img: "/n18.png" },
+            { name: "Grilled Turkey", price: "₦4,000", img: "/n19.png" },
+            { name: "Lamb Chops", price: "₦7,000", img: "/n20.png" },
+            { name: "Grilled Fish", price: "₦5,000", img: "/n21.png" },
+            { name: "Mixed Grill Platter", price: "₦8,000", img: "/n17.png" }
         ]
     },
     {
         category: "Milkshakes & Smoothies",
         icon: <TbCup />,
         items: [
-            { name: "Chocolate Yum Shake", price: "₦4,500", img: "/m20.png" },
-            { name: "Oreo Cookies & Cream", price: "₦5,500", img: "/m21.png" },
-            { name: "Vanilla / Strawberry Shake", price: "₦4,500", img: "/m20.png" },
-            { name: "Fruit Smoothie (Banana/Pineapple)", price: "₦3,500", img: "/m21.png" },
-            { name: "Yoghurt Parfait", price: "₦6,500", img: "/m20.png" }
+            { name: "Chocolate Yum Shake", price: "₦4,500", img: "/n2.png" },
+            { name: "Oreo Cookies & Cream", price: "₦5,500", img: "/shop3.svg" },
+            { name: "Vanilla / Strawberry Shake", price: "₦4,500", img: "/n1.png" },
+            { name: "Fruit Smoothie (Banana/Pineapple)", price: "₦3,500", img: "/n3.png" },
+            { name: "Yoghurt Parfait", price: "₦6,500", img: "/n4.png" }
         ]
     },
     {
         category: "Sides & Snacks",
         icon: <LuDonut />,
         items: [
-            { name: "Small Chops", price: "₦3,000", img: "/m22.png" },
-            { name: "Yamarita", price: "₦5,500", img: "/m23.png" },
-            { name: "Potarita", price: "₦2,500", img: "/m22.png" },
-            { name: "Moi Moi", price: "₦1,000", img: "/m23.png" },
-            { name: "Meat Pie", price: "₦1,200", img: "/m22.png" }
+            { name: "Small Chops", price: "₦3,000", img: "/n5.png" },
+            { name: "Fish / Egg Roll", price: "₦1,000", img: "/n10.png" },
+            { name: "Doughnut", price: "₦800", img: "/n9.png" },
+            { name: "Moi Moi", price: "₦1,000", img: "/n8.png" },
+            { name: "Meat Pie", price: "₦1,200", img: "/n6.png" }
         ]
     },
     {
         category: "Cold Kitchen",
         icon: <TbSalad />,
         items: [
-            { name: "Fruit Platter (Small/Large)", price: "₦5,000", img: "/m24.png" },
-            { name: "Caesar Salad", price: "₦3,500", img: "/m25.png" },
-            { name: "Fruit Salad", price: "₦2,500", img: "/m24.png" },
-            { name: "Vegetable Salad", price: "₦1,500", img: "/m25.png" }
+            { name: "Fruit Platter (Small/Large)", price: "₦5,000", img: "/m23.png" },
+            { name: "Caesar Salad", price: "₦3,500", img: "/m24.png" },
+            { name: "Fruit Salad", price: "₦2,500", img: "/m25.png" },
+            { name: "Vegetable Salad", price: "₦1,500", img: "/m26.png" }
         ]
     },
     {
         category: "Drinks",
         icon: <RiDrinks2Line />,
         items: [
-            { name: "Water", price: "₦500", img: "/m26.png" },
-            { name: "Chapman / Pinacolada", price: "₦4,000", img: "/m27.png" },
-            { name: "Soft Drinks", price: "₦1,000", img: "/m26.png" },
-            { name: "Packaged Juice", price: "₦3,000", img: "/m27.png" }
+            { name: "Water", price: "₦500", img: "/m271.png" },
+            { name: "Chapman / Pinacolada", price: "₦4,000", img: "/m29.png" },
+            { name: "Soft Drinks", price: "₦1,000", img: "/m281.png" },
+            { name: "Packaged Juice", price: "₦3,000", img: "/m30.png" }
         ]
     },
     {
         category: "Hot Kitchen",
         icon: <CiCoffeeCup />,
         items: [
-            { name: "Coffee / Tea", price: "₦1,500", img: "/m28.png" },
-            { name: "Cappuccino", price: "₦2,500", img: "/m29.png" },
-            { name: "Hot Chocolate", price: "₦1,500", img: "/m28.png" }
+            { name: "Coffee / Tea", price: "₦1,500", img: "/m31.png" },
+            { name: "Cappuccino", price: "₦2,500", img: "/m32.png" },
+            { name: "Hot Chocolate", price: "₦1,500", img: "/m33.png" }
         ]
     }
 ];

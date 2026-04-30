@@ -37,7 +37,13 @@ const FinalSection = () => {
                         viewport={{ once: true }}
                         transition={{ delay: 0.3 }}
                     >
-                        <Link to="/menu" className="outline-none">
+                        
+                      
+                        <a
+              href="https://wa.me/2348032280081"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
                             <Motion.button 
                                 className="hub-trigger-btn"
                                 whileHover={{ scale: 1.05 }}
@@ -45,7 +51,8 @@ const FinalSection = () => {
                             >
                                 Order Your Meal Now <HiOutlineArrowRight />
                             </Motion.button>
-                        </Link>
+                            </a>
+                    
                     </Motion.div>
                 </div>
 

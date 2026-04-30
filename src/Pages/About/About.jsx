@@ -10,10 +10,10 @@ import ServicesSection from '../../Components/Sections/ServicesSection/ServicesS
 
 const About = () => {
     const team = [
-        { name: "Nelkan Happiness Dickson", role: "Chef Yum (CEO)", img: "/team1.jpg" },
-        { name: "Lois Ayuba Maidoki", role: "Human Resource", img: "/team2.jpg" },
-        { name: "Musa Mahdi", role: "Operations Supervisor", img: "/team3.jpg" },
-        { name: "Chidimma Akwuo", role: "Sales & Finance Manager", img: "/team4.jpg" },
+        { name: "Nelkan Happiness Dickson", role: "Chef Yum (CEO)", img: "/team1.jpeg" },
+        { name: "Lois Ayuba Maidoki", role: "Human Resource", img: "/team2.jpeg" },
+        { name: "Musa Mahdi", role: "Operations Supervisor", img: "/team3.jpeg" },
+        { name: "Chidimma Akwuo", role: "Sales & Finance Manager", img: "/team4.jpeg" },
     ];
 
     const slideUp = {

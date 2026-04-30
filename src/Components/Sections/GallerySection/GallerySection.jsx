@@ -6,11 +6,11 @@ import './GallerySection.css';
 
 const GallerySection = () => {
     const images = [
-        { id: 1, src: '/g1.png', class: 'node-outer-left' },
-        { id: 2, src: '/g2.png', class: 'node-inner-left' },
-        { id: 3, src: '/g3.png', class: 'node-center' },
-        { id: 4, src: '/g4.png', class: 'node-inner-right' },
-        { id: 5, src: '/g5.png', class: 'node-outer-right' },
+        { id: 1, src: '/gallery20.webp', class: 'node-outer-left' },
+        { id: 2, src: '/gallery21.webp', class: 'node-inner-left' },
+        { id: 3, src: '/gallery7.webp', class: 'node-center' },
+        { id: 4, src: '/gallery11.webp', class: 'node-inner-right' },
+        { id: 5, src: '/gallery10.webp', class: 'node-outer-right' },
     ];
 
     return (
@@ -77,7 +77,7 @@ const GallerySection = () => {
                     transition={{ delay: 0.5 }}
                 >
                     <a 
-                        href="https://instagram.com" 
+                        href="https://www.instagram.com/yumdelivery01/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="instagram-trigger-anchor"
