@@ -8,21 +8,21 @@ const TestimonialSection = () => {
     const reviews = [
         {
             id: 1,
-            name: "Aisha M.",
+            name: "Gideon A.",
             location: "Kano",
             text: "“Fast delivery and the food was really fresh. It honestly tastes like home cooking.”",
             avatar: "/a1.png"
         },
         {
             id: 2,
-            name: "Daniel K.",
+            name: "Daniella K.",
             location: "Lagos",
             text: "“I ordered for my office and everyone loved it. Definitely ordering again!”",
             avatar: "/a2.png"
         },
         {
             id: 3,
-            name: "Fatima S.",
+            name: "John Atama",
             location: "Abuja",
             text: "“Very reliable service. My food always arrives hot and on time.”",
             avatar: "/a3.png"
