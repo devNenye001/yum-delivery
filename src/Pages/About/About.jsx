@@ -47,7 +47,7 @@ const About = () => {
                     </p>
                 </Motion.div>
                 <Motion.div className="narrative-visual-anchor" {...slideUp} transition={{ delay: 0.2 }}>
-                    <img src="/gg1.svg" alt="Our Quality Food" className="anchor-img-artifact" />
+                    <img src="/gallery1.webp" alt="Our Quality Food" className="anchor-img-artifact" />
                 </Motion.div>
             </section>
 
